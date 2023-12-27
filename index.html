@@ -1,32 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="style/style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Texto</h1>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-        suscipit ducimus pariatur recusandae dicta, deleniti magnam expedita?
-      
-      </p>
-    </header>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Notícias</a>
-      <a href="#">Curiosidades</a>
-      <a href="#">Fale Conosco</a>
-    </nav>
-    <main>
-      <article>
-        <h1>História do Mascote do Android</h1>
+<html lang="pt-PT">
 
-        <p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="style/social-section.css">
+  <link rel="stylesheet" href="style/footer.css">
+  <script type="module" src="index.js" defer></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="imagens/Logotipo Nome Marca Pessoal Neon Rosa.png" alt="Logo">
+      </div>
+      <div class="hamburger-menu">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="nav-links">
+
+
+        <a href="#">ABOUT</a>
+        <a href="#">PROJETOS</a>
+        <a href="#">CONTATO</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="container-main">
+
+      <div class="welcome-section">
+
+        <div class="welcome-text">
+          <h1>Hello, I´m Átylla Kossatz, a software developer FULL-STACK! </h1>
+          <p>Bem vindo ao meu portfólio. Aqui você encontrará meus projetos, experiências profissionais e muito mais.
+          </p>
+        </div>
+        <div class="avatar-container">
+          <picture>
+            <source media="(max-width: 769px )" srcset="imagens/avatar2Recorte.png" />
+            <img src="imagens/avatar2.png" alt="Avatar" class="avatar">
+          </picture>
+        </div>
+      </div>
+
+      <div class="teste">
+
+        <div class="social-section">
+          <button>
+            Vamos construir algo junstos, entre em contato!
+          </button>
+        
+
+        </div>
+      </div>
+
+      <!-- <p>
           Provavelmente você sabe que o sistema operacional
           <strong>Android</strong>, mantido pelo <strong>Google</strong> é um
           dos mais utilizados para dispositivos móveis em todo o mundo. Mas
@@ -40,12 +83,15 @@
         <p>
           A primeira tentativa de criar um mascote surgiu em 2007 e veio de um
           desenvolvedor chamado
-          <a class="externo"
+          <a
+            class="externo"
             href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/"
             target="_blank"
             >Dan Morrill</a
           >. Ele conta que abriu o
-          <a class="externo" href="https://inkscape.org/pt/" target="_blank">Inkscape</a>
+          <a class="externo" href="https://inkscape.org/pt/" target="_blank"
+            >Inkscape</a
+          >
           (software livre para vetorização de imagens) e criou sua própria
           versão de robô. O objetivo era apenas personificar o sistema apenas
           para a a sua equipe, não existia nenhuma solicitação da empresa para a
@@ -53,7 +99,10 @@
         </p>
 
         <picture>
-          <source media="(max-width: 670px )" srcset="imagens/dan-droids-pq.png">
+          <source
+            media="(max-width: 670px )"
+            srcset="imagens/dan-droids-pq.png"
+          />
           <img src="imagens/dan-droids.png" alt="Primeiro mascote do android" />
         </picture>
 
@@ -67,13 +116,17 @@
         <p>
           A ideia de ter um mascote foi amadurecendo e a missão foi passada para
           uma profissional da área. A ilustradora Russa
-          <a class="externo" href="https://www.irinablok.com/" target="_blank">Irina Blok</a>,
-          também funcionária do Google, ficou com a missão de representar o
+          <a class="externo" href="https://www.irinablok.com/" target="_blank"
+            >Irina Blok</a
+          >, também funcionária do Google, ficou com a missão de representar o
           pequeno robô de uma maneira mais agradável.
         </p>
 
         <picture>
-          <source media="(max-width: 670px )" srcset="imagens/irina-blok-pq.jpg">
+          <source
+            media="(max-width: 670px )"
+            srcset="imagens/irina-blok-pq.jpg"
+          />
           <img
             src="imagens/irina-blok.jpg"
             alt="Irina Blok, criadora do Bugdroid"
@@ -125,7 +178,8 @@
             <li>2.2 - <abbr title="Iorgute Congelado">Froyo</abbr></li>
             <li>2.3 - <abbr title="Biscoito de Gengibre">Gingerbread</abbr></li>
             <li>3.0 - <abbr title="Favo de mel">Honeycomb</abbr></li>
-            <li>4.0 - <abbr title="Sanduíche de Sorvete">Ice Cream Sandwich</abbr>
+            <li>
+              4.0 - <abbr title="Sanduíche de Sorvete">Ice Cream Sandwich</abbr>
             </li>
             <li>4.1 - <abbr title="Jujuba">Jelly Bean</abbr></li>
             <li>4.4 - <abbr title="KitKat"> KitKat</abbr></li>
@@ -141,30 +195,34 @@
             origem ao Android 10.
           </p>
 
-          
-            <p>
-              Acesse aqui o site
-              <a class="externo"
-                href="https://www.android.com/intl/en_ca/?_gl=1*16vyvu5*_up*MQ..*_ga*Nzc0NjM5NDg3LjE3MDIxMjk0MjQ.*_ga_B3NBHZEJE6*MTcwMjEyOTQyMy4xLjEuMTcwMjEyOTQ0Ni4wLjAuMA.."
-                target="_blank"
-                >Android History</a
-              >
-              para conhecer a sequência das versões "adocicadas" e o que cada uma
-              trouxe para o sistema Android.
-            </p>
-          
+          <p>
+            Acesse aqui o site
+            <a
+              class="externo"
+              href="https://www.android.com/intl/en_ca/?_gl=1*16vyvu5*_up*MQ..*_ga*Nzc0NjM5NDg3LjE3MDIxMjk0MjQ.*_ga_B3NBHZEJE6*MTcwMjEyOTQyMy4xLjEuMTcwMjEyOTQ0Ni4wLjAuMA.."
+              target="_blank"
+              >Android History</a
+            >
+            para conhecer a sequência das versões "adocicadas" e o que cada uma
+            trouxe para o sistema Android.
+          </p>
         </aside>
 
-       
-          <p>
-            Então é isso! Espero que você tenha gostado do nosso artigo com essa
-            curiosidade sobre o sistema Android e seu simpático mascote.
-          </p>
-        
-      </article>
-    </main>
-    <footer>
-      <p>Site criado por Átylla Kossatz</p>
-    </footer>
-  </body>
+        <p>
+          Então é isso! Espero que você tenha gostado do nosso artigo com essa
+          curiosidade sobre o sistema Android e seu simpático mascote.
+        </p>
+      </div> -->
+  </main>
+  <footer>
+    <div class="text">
+      <p>&copy; 2023. Site criado por Átylla Kossatz</p>
+    </div>
+    <div class="social-images">
+      <i class="ph ph-linkedin-logo"></i>
+    </div>
+
+  </footer>
+</body>
+
 </html>
